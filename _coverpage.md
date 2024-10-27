@@ -1,9 +1,6 @@
-![logo](https://gitee.com/mrxzx/LyApi/raw/master/public/favicon.ico)
+# LyApi
 
-# LyApi 2.X
+> PHP 后端开发框架 [ API & HTML Render ]
 
-> LyApi Framework 全新升级！
-
-
-[OSC@Git](https://gitee.com/mrxzx/LyApi.git)
+[GitHub](https://github.com/lolly-studio/lyapi)
 [开始](#前言)

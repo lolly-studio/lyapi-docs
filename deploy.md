@@ -1,43 +1,45 @@
 # 项目部署
 
-!> LyApi 2.X 暂不支持 Composer 快速安装。
+!> LyApi 暂不支持 Composer 快速安装 & 下载。
 
-## 🍪手动部署
 
-> 有点麻烦，不过也挺好的。
 
-#### ⏬下载
+## 手动部署
 
-在安装前，请确保您的电脑已经安装好了 [GIT 工具](https://git-scm.com/) （别告诉我你连 git 是啥都不知道~ 😮）
+> 自己动手，丰衣足食。
 
-然后，接下来用你的终端程序跑一下下面的指令（Windows 用 CMD 就行了）
+
+
+#### 下载
+
+在安装前，请确保您的电脑已经安装好了 [GIT](https://git-scm.com/) 工具
+
+从 GitHub 下载 LyApi 最新版本：
 
 ```command
-git clone https://gitee.com/mrxzx/LyApi.git
+git clone https://github.com/lolly-studio/lyapi.git
 ```
 
-注意：先 **cd** 到需要下载的目录，不然下载到哪里去了都不知道😓
 
-#### 💽安装
 
-如果安装有composer，请运行：
+#### 安装
+
+你需要先安装 Composer，然后运行：
 
 ```
 composer install
 ```
-或者手动下载 vendor 文件夹！
 
-[Vendor 下载地址](https://pan.wwsg18.com/index.php?share/file&user=1&sid=sGa8uM7n)
 
-并将 vendor 解压至框架更目录！
+
 
 #### ⏫部署
 
-根据自己系统上的服务器（Apache OR Nginx）创建相应的服务！
+根据自己所使用的服务器（ Apache or Nginx ）创建相应的服务！
 
-注意：根目录为 **public** 文件夹，其他目录将无法运行！！
+!> 注意：请将根目录设置为 **public** 文件夹，其他目录将无法运行！
 
-#### ⏺伪静态
+#### 伪静态
 
 接下来则需要配置伪静态！
 
@@ -62,6 +64,6 @@ if ($rule_0 = "1"){
 }
 ```
 
-#### 🆗完成
+#### 完成
 
-接下来，试着访问本框架，如果页面正常的加载出来了！则说明安装已经完成！
+接下来，试着访问本地服务器，如果页面正常的加载出来了！则说明安装已经完成！
